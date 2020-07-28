@@ -1,0 +1,10 @@
+nav {
+  border: 2px;
+  border-style: solid;
+  float: left;
+  background-color: gray;
+}
+
+div {
+  background-color: red;
+}
