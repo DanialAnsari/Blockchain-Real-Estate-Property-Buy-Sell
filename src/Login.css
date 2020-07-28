@@ -1,0 +1,30 @@
+.center {
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+
+  background-color: white;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+}
+
+.textlabels {
+  padding-left: 50px;
+}
+.textlabels2 {
+  padding-left: 65px;
+}
+
+.custom-btn {
+  color: #fff;
+  background-color: rgb(27, 177, 27);
+  background-color: cutom-color;
+  border-color: green;
+  border-color: cutom-cor;
+  width: 50%;
+  height: 130%;
+}
