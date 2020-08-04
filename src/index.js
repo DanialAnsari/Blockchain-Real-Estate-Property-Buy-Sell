@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 //import App from "./App";
 import Nav from "./Nav";
+//import AllProperties from "./AllProperties";
+import AddProperties from "./AddPropertyForm";
 //import Login from "./Login";
 //import SignUp from "./SignUp";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,7 +14,8 @@ ReactDOM.render(
   <div>
     <Nav />
     <br />
-    <br />
+
+    <AddProperties />
   </div>,
   document.getElementById("root")
 );

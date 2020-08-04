@@ -14,6 +14,10 @@ function Nav(prop) {
 
   const Web3 = require("web3");
 
+  function getAddress() {
+    return accounts[0];
+  }
+
   async function loadWeb3() {
     try {
       if (window.ethereum) {
@@ -76,7 +80,10 @@ function Nav(prop) {
                 id="basic-nav-dropdown"
                 float={{ Width: 1000 + "px" }}
               >
-                <ReactBootStrap.NavDropdown.Item href="#action/3.1">
+                <ReactBootStrap.NavDropdown.Item
+                  id="address"
+                  href="#action/3.1"
+                >
                   {iden}
                 </ReactBootStrap.NavDropdown.Item>
                 <ReactBootStrap.NavDropdown.Item href="#action/3.2">

@@ -1,0 +1,43 @@
+.propcard {
+  background-color: white;
+  width: 250px;
+  margin: 40px;
+  border-color: black;
+  border-style: double;
+  border-width: 4px;
+}
+
+.textlabels {
+}
+
+.textlabel {
+  background-color: red;
+}
+
+.textbox {
+  margin-right: 210px;
+}
+
+.MainCard {
+  background-color: palegoldenrod;
+  border-color: black;
+  border-style: double;
+  border-width: 4px;
+}
+
+.position {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+.price {
+  font-size: 24px;
+}
+
+button {
+  background-color: rgb(36, 148, 36);
+  border-radius: 50%;
+}
